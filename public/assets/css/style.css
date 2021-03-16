@@ -791,6 +791,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 1px;
+    word-break: break-word;
+    max-width: 180px;
 }
 
 /*--------------------------------------------------------------
@@ -1104,7 +1106,7 @@ section {
   /*width: 80px;*/
   /*height: 70px;*/
   width: 70px;
-  height: 55px;
+  /*height: 55px;*/
 }
 
 .service-item-content {
@@ -1115,11 +1117,11 @@ section {
   margin: 0 20px;
 }
 
-.service-item-content h3, .service-item-content p {
-  margin: 0 !important;
+.service-item-content h4, .service-item-content h5 {
+  margin: 1px 0 !important;
 }
 
-.service-item-content h3 {
+.service-item-content h4 {
   color: var(--color-orange);
 }
 
@@ -1557,6 +1559,10 @@ footer .copyright-container span {
 @media (max-width: 992px) {
   footer .copyright-container span {
     text-align: center;
+  }
+
+  .services-img-container {
+    margin-top: 30px;
   }
 }
 
