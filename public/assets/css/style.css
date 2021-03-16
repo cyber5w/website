@@ -981,7 +981,7 @@ section {
 }
 
 .whyUs .about-item-description {
-  color: white;
+  /*color: white;*/
 }
 
 /*--------------------------------------------------------------
@@ -1161,12 +1161,12 @@ section {
 }
 
 .courses .course-card {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  /*box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);*/
   border: none;
   width: 90%;
   margin: auto;
   height: 100%;
-  border: 2px solid #2c497f;
+  border: 2px solid #ffffff;
 }
 
 .course-card .card-body {
@@ -1221,6 +1221,10 @@ section {
   color: #2c497f;
   margin-top: 10px;
   text-transform: uppercase;
+}
+
+.courses {
+  color: white;
 }
 
 /*--------------------------------------------------------------
