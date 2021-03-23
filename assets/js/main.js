@@ -157,4 +157,14 @@
     aos_init();
   });
 
+  $('#footerEmailIcon').hover(
+    function(){
+      $(this).attr('src','assets/img/email-icon-open.png')
+    },
+    function(){
+      $(this).attr('src','assets/img/email-icon.png')
+    }
+)
+
+
 })(jQuery);

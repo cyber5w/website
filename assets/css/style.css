@@ -1600,6 +1600,7 @@ footer .email-container {
 
 footer .email-container img {
   width: 30px;
+  cursor: pointer;
 }
 
 footer .email-container span {
