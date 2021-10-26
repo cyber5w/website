@@ -24,12 +24,17 @@
   <link href="assets/css/style.css" rel="stylesheet">
   
   <style>
-                .column {
-                  float: left;
-                  width: 50%;
-                  padding: 5px;
-                }  
+    .column {
+    float: left;
+    width: 50%;
+    padding: 5px; }  
+    
+    .row::after {
+    content: "";
+    clear: both;
+    display: table; }
   </style>
+  
 </head>
 
 <body>
@@ -128,7 +133,7 @@
 
               <div class="blog_details">
                 <a class="d-inline-block" href="#">
-<!--                  <h2>Joint Venture Announcement from Cyber 5W & Hexordia</h2>-->
+                  <h2>Joint Venture Announcement from Cyber 5W & Hexordia</h2>
                 </a>
 <p> We are excited to announce a joint endeavor to bring you the best in digital forensics training.  Cyber 5W and Hexordia are teaming up to bring you digital forensics training at a great value. Read on to learn more about this partnership and what exciting new content it brings to the community.</p>
 
